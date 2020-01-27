@@ -1,0 +1,11 @@
+{
+  "name": "authtdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://leandroaa7@github.com/leandroaa7/authtdd.git",
+  "author": "leandroaa7 <leandroaalexandre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
