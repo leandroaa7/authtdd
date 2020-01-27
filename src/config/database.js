@@ -7,9 +7,11 @@ module.exports = {
   dialect: 'postgres',
   // desabilitar warning do sequelize
   operatorsAliases: false,
-  //não mostrar muitos logs
+
+  //não mostrar muitos logs, quando rodar migrations etc
   logging: false,
   define: {
+    
     // faz com que todas as tabelas do banco tenham
     // os campos updated_at e created_at e marca esses dados automaticamente
     timestamps: true,
